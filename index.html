@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 2000px;}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      opacity: 0.9;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+   
+    #contentwrapper {
+      color:grey;
+      opacity:0.9;
+    }
+
+    .row content {
+      background-color: grey;
+    }
+
+    #foot {
+      text-align:right;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Главная</a></li>
+        <li><a href="#">Сотрудники</a></li>
+        <li><a href="#">Дрессировка</a></li>
+        <li><a href="#">Щенки</a></li>
+        <li><a href="#">Питомники</a></li>
+        <li><a href="#">Положения</a></li>
+        <li><a href="#">Партнёры</a></li>
+        <li><a href="#">Выставки</a></li>
+        <li><a href="#">Вязка собак</a></li>
+        <li><a href="#">Стандарты</a></li>
+        <li><a href="#">Документы</a></li>
+        <li><a href="#">Форум</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+  
+    <div class="col-sm-2 sidenav">
+      <p><a><img src="log BEZ FON .gif" style="z-index: -1; width: 200px; height: 200px; padding: 10px; position: relative; left:-8px;"></a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+     <h1> Главная </h1>
+<p>Общественная кинологическая организация «Всеукраинский племенной центр «АБСОЛЮТ» зарегистрирован главным управлением юстиций в городе Киеве 15 февраля 2012 года.<br><br>
+ 
+Молодая организация, успешно набирает обороты в работе по племенному разведению и улучшению поголовья собак.
+Открываем отделения по всей территории Украины.<br><br>
+ 
+<h3>СОЗДАНЫ ЕДИНЫЕ:</h3>
+компьютерный банк данных, племенная книга, форма родословных, система клеймения собак, регистрация питомников, и заводских приставок.<br><br>
+ 
+<h3>ЗАКЛЮЧЕНЫ ДОГОВОРА:</h3>
+с фирмами производителей кормов, ветеринарных препаратов и аксессуаров для собак, ветеринарными клиниками по льготному обслуживанию членов центра.<br><br>
+ 
+Мы взаимовыгодно сотрудничаем со многими кинологическими организациями. Наш центр с каждым днем становится все более популярным. Работа организации основана на принципах полнейшей демократии, огромной любви к животным и уважением к их владельцам.
+Проводим консультации по дрессировке и воспитанию собак, работаем с населением  и молодежью о гуманном отношению к животным.
+Племенной центр Украины «АБСОЛЮТ» приглашает к сотрудничеству заводчиков собак, питомники, кинологические клубы и дрессировочные центры. Будем рады сотрудничать и видеть Вас в наших рядах.<br><br><br></p>
+ 
+<p id="foot">С уважением президент  Всеукраинского племенного цента  «АБСОЛЮТ»<br><br>
+ 
+Фательников Игорь Вячеславович<br>
+03083, Украина, г.Киев,<br>
+ул. Корчеватская 32.<br>
+тел.  (044) 362-66-47<br>
+моб. (067) 949-17-20<br>
+(063) 536-29-79<br>
+(099) 268-08-76<br>
+e-mail:  3626647@ukr.net<br>
+www.absolute-dog.org.ua<br>
+</p>
+
+    </div>
+   
+    <div class="col-sm-2 sidenav">
+      
+      <p><a><img src="alians.gif" style="z-index: -1; width: 200px; height: 200px; padding: 10px; position: relative; left:-8px;"></a></p>
+        
+      <div class="well">
+        <p>ADS</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
